@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpita's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100" tabindex="0">
+
+    <!--Navigation Bar-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(38, 31, 51);">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <span class="d-inline-flex justify-content-center align-items-center text-white fw-bold" style="width: 40px; height: 40px; font-size: 1.2rem; border-radius: 8px; background: linear-gradient(135deg,#ff758c 0%, #ff7eb3 100%); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); letter-spacing: 1px;">A</span>Arpita's Portfolio</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link text-white" href="#about"><i class="fas fa-user"></i>  About Me</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white" href="#tech-stack"><i class=" fas fa-toolbox"></i>  Tech Stack</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white" href="#hanging-icons"><i class="fas fa-code"></i>  Projects</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white" href="#connect"><i class="fas fa-envelope"></i>  Connect With Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Me -->
+    <section class="about-me pt-4 pb-3 text-light" id="about">
+        <div class="container col-xxl-8 px-4 pb-4">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            
+                <div class="col-10 col-sm-8 col-lg-6" data-aos="fade-left">
+                    <img src="My photo.jpg" class="profile-img rounded-circle mx-lg-auto img-fluid" alt="My photo" width="400" height="200" loading="lazy">
+                </div>
+            
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 main-heading">About Me </h1>
+                
+                    <p class="lead">
+                     Hi, I’m Arpita Rout, a final-year Computer Science and Engineering student with a deep interest in Machine Learning, Artificial Intelligence, and using technology to solve real-world problems. 
+                    </p>
+                
+                    <p class="lead">
+                        I’m passionate about building intelligent systems, whether it’s training models, working with data, or exploring how machines can learn, adapt, and improve over time. I enjoy the full process: from understanding a problem and preprocessing data, to experimenting with different models and fine-tuning them to get meaningful results.
+                    </p>
+                    
+                    <p>
+                        I’ve worked with popular ML frameworks and tools, and I’m always looking for ways to apply them creatively. I believe in continuous learning, clean code, and building solutions that are not only functional but thoughtful and impactful.
+                    </p>
+
+                    <button id="toggleReadMore" class="btn btn-sm btn-outline-info ms-2 d-inline-flex align-items-center gap-1" data-bs-toggle="collapse" data-bs-target="#readMore" aria-expanded="false" aria-controls="readMore"> <span class="toggle-text">Read More</span>
+                    <i class="bi bi-chevron-down toggle-icon"></i></button>
+                
+                    <div class="collapse" id="readMore">
+                        <div class="card card-body bg-dark text-white border-info mt-2">
+                            <p class="lead">
+                            When I’m not coding or exploring new AI models, you’ll usually find me designing little creative ideas, or going on a refreshing jog to clear my mind. I enjoy learning things outside tech too, like psychology or just watching a good suspense-thriler series. I believe a curious mind needs balance, and these moments help me recharge and stay inspired.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section id="tech-stack" class="tech-stack-section pt-2 pb-3">
+        <div class="container text-center">
+            <h2 class="text-primary mb-3" style="font-size: 2.5rem; font-weight: bold;">Tech Stack</h2>
+
+            <!-- Data Science & ML-->
+            <div class="stack-category mb-5">
+                    <h4 class="text-warning mb-4 text-center">Data Science & ML</h4>
+                    <div class="d-flex flex-wrap justify-content-center gap-4">
+                        <div class="icon-block">
+                            <div class="icon-wrapper">
+                                <img class="custom-icon numpy img-fluid" src="https://numpy.org/images/logo.svg" alt="NumPy" />
+                            </div>
+                            <p>NumPy</p>
+                        </div>
+                        <div class="icon-block text-center">
+                            <div class="icon-wrapper">
+                                <img class="custom-icon img-fluid" src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="Pandas" />
+                            </div>
+                            <p>Pandas</p>
+                        </div>
+                        <div class="icon-block text-center">
+                            <div class="icon-wrapper">
+                                <img class="custom-icon img-fluid" src="https://matplotlib.org/_static/images/logo2.svg" alt="Matplotlib" />
+                            </div>
+                            <p>Matplotlib</p>
+                        </div>
+                        <div class="icon-block text-center">
+                            <div class="icon-wrapper">
+                                <img class="custom-icon img-fluid" src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" />
+                            </div>
+                            <p>Seaborn</p>
+                        </div>
+                        <div class="icon-block text-center">
+                            <div class="icon-wrapper">
+                                <img class="custom-icon tensorflow img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" />
+                            </div>
+                            <p>TensorFlow</p>
+                        </div>
+                        <div class="icon-block text-center">
+                            <div class="icon-wrapper">
+                                <img class="custom-icon img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras" />
+                            </div>
+                            <p>Keras</p>
+                        </div>
+                        <div class="icon-block text-center">
+                            <div class="icon-wrapper">
+                                <img class="custom-icon img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" />
+                            </div>
+                            <p>PyTorch</p>
+                        </div>
+                        <div class="icon-block text-center">
+                            <div class="icon-wrapper">
+                                <img class="custom-icon img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" />
+                            </div>
+                            <p>Scikit-learn</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="stack-category mb-5">
+                    <h4 class="text-info mb-4 text-center">Frontend</h4>
+                    <div class="d-flex flex-wrap justify-content-center gap-4">
+                        <div class="icon-block">
+                            <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"  />
+                            <p>HTML</p>
+                        </div>
+                        <div class="icon-block">
+                            <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+                            <p>CSS</p>
+                        </div>
+                        <div class="icon-block">
+                            <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="icon-block">
+                            <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" />
+                            <p>Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Programming Languages -->
+            <div class="stack-category mb-5">
+                <h4 class="text-success mb-4 text-center">Programming Languages</h4>
+                <div class="d-flex flex-wrap justify-content-center gap-4">
+                    <div class="icon-block">
+                        <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+                        <p>Python</p>
+                    </div>
+                    <div class="icon-block">
+                        <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+                        <p>C/C++</p>
+                    </div>
+                    <div class="icon-block">
+                        <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+                        <p>Java</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Platforms -->
+            <div class="stack-category mb-5">
+                <h4 class="text-secondary mb-4 text-center">Tools & Platforms</h4>
+                <div class="d-flex flex-wrap justify-content-center gap-4">
+                    <div class="icon-block">
+                        <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" />
+                        <p>VS Code</p>
+                    </div>
+                    <div class="icon-block">
+                        <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+                        <p>Git</p>
+                    </div>
+                    <div class="icon-block">
+                        <img class="custom-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+                        <p>GitHub</p>
+                    </div>
+                    <div class="icon-block">
+                        <img class="custom-icon" src="https://jupyter.org/assets/homepage/main-logo.svg" alt="Jupyter" />
+                        <p>Jupyter Notebook</p>
+                    </div>
+                    <div class="icon-block">
+                        <img class="custom-icon colab" src="https://colab.research.google.com/img/colab_favicon_256px.png" alt="Colab" />
+                        <p>Google Colab</p>
+                    </div>
+                    <div class="icon-block">
+                        <div class="icon-wrapper">
+                            <img class="custom-icon streamlit" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit" />
+                        </div>
+                        <p>Streamlit</p>
+                    </div>
+                    <div class="icon-block">
+                        <img class="custom-icon" src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-icon.svg" alt="Power BI" />
+                        <p>Power BI</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Databases & Shell -->
+            <div class="stack-category">
+                <h4 class="text-light mb-3 text-center">Databases & Shell</h4>
+                <div class="row justify-content-center">
+                    <div class="col-4 col-sm-2 icon-block">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+                        <p>MySQL</p>
+                    </div>
+                    <div class="col-4 col-sm-2 icon-block">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5815/5815474.png" alt="SQL" />
+                        <p>SQL</p>
+                    </div>
+                    <div class="col-4 col-sm-2 icon-block">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux Shell" />
+                        <p>Linux Shell</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--A Glimpse of My Work-->
+    <section id="hanging-icons" class="pt-5 mt-5" style="scroll-margin-top: 80px;">
+        <div class="container px-4 py-5">
+            <h1 class="pb-2 section-heading hidden">A Glimpse of My Work</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- 1 -->
+                <div class="col">
+                    <div class="icon-card h-100 d-flex flex-column">
+                        <div>
+                            <h3 class="fs-4 project-title d-flex align-items-center gap-2"><i class="bi bi-chat-left-text-fill"></i>Amazon Review Sentiment Analysis</h3>
+                            <p>This project analyzes Amazon product reviews to detect sentiment using NLP and a fine-tuned BERT model. Built with Python, Hugging Face Transformers, and Pandas, it helped me understand pre-trained language models, tokenization, and sentiment classification. I also learned to evaluate NLP pipelines using confusion matrices.</p>
+                            <div class="mt-auto">
+                                <a href="https://github.com/arpitarout01/amazon-review-sentiment" class="btn btn-primary" target="_blank"><i class="bi bi-github me-1"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col h-100">
+                    <div class="icon-card h-100 d-flex flex-column">
+                        <div>
+                            <h3 class="fs-4 project-title d-flex align-items-center gap-2"><i class="bi bi-flower1"></i>Plant Disease Detection</h3>
+                            <p>I built a CNN-based model to classify plant leaf images into 38 disease categories, aimed at supporting early diagnosis in agriculture. Using TensorFlow/Keras and a Kaggle dataset, I learned image preprocessing, model evaluation, and techniques to improve accuracy and reduce overfitting for real-world reliability. It strengthened my understanding of deep learning workflows.</p>
+                            <div>
+                                <a href="https://github.com/arpitarout01/Plant-Disease-Detection-CNN" class="btn btn-primary" target="_blank"><i class="bi bi-github me-1"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col h-100">
+                    <div class="icon-card h-100 d-flex flex-column">
+                        <div>
+                            <h3 class="fs-4 project-title d-flex align-items-center gap-2"><i class="bi bi-heart-pulse-fill"></i>Breast Cancer Prediction (Know it Early)</h3>
+                            <p>This Streamlit app predicts breast cancer likelihood using a logistic regression model. Built with Python, Scikit-learn, and Pandas, it helped me understand end-to-end ML pipelines, from preprocessing to deployment, and taught me how to balance data and interpret metrics.</p>
+                            <div>
+                                <a href="https://know-it-early-4kbub5t3cymnuq6usfclqg.streamlit.app/" class="btn btn-primary" target="_blank">🚀Try App</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col h-100">
+                    <div class="icon-card h-100 d-flex flex-column">
+                        <div>
+                            <h3 class="fs-4 project-title d-flex align-items-center gap-2"><i class="bi bi-shield-lock-fill"></i>Credit Card Fraud Detection</h3>
+                            <p>This model detects fraudulent credit card transactions using machine learning classifiers like SVM and Random Forest. Built with Scikit-learn and Python, it taught me about class imbalance, precision-recall trade-offs, and the practical role of AI in financial fraud prevention. It also improved my skills in evaluating models.</p>
+                            <div>
+                                <a href="https://github.com/arpitarout01/-Credit-Card-Fraud-Detection" class="btn btn-primary" target="_blank"><i class="bi bi-github me-1"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col h-100">
+                    <div class="icon-card h-100 d-flex flex-column">
+                        <div>
+                            <h3 class="fs-4 project-title d-flex align-items-center gap-2"><i class="bi bi-bar-chart-fill"></i>Sales Performance Dashboard</h3>
+                            <p>This interactive Power BI dashboard visualizes sales trends, regional performance, and top products. It helped me understand data modeling, DAX, and visual storytelling, while learning to clean data, define KPIs, and use dynamic filters for business insights. It also enhanced my ability to communicate data-driven strategies clearly and effectively.</p>
+                            <div>
+                                <a href="https://github.com/arpitarout01/Sales-Performance-Dashboard" class="btn btn-primary" target="_blank"><i class="bi bi-github me-1"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col h-100">
+                    <div class="icon-card h-100 d-flex flex-column">
+                        <div>
+                            <h3 class="fs-4 project-title d-flex align-items-center gap-2"><i class="bi bi-journal-bookmark-fill"></i>Library Management System</h3>
+                            <p>A full-stack library management system built with Python and MySQL to handle books, members, and transactions. This early backend project taught me CRUD operations, schema design, user authentication, and integrating front-end logic with persistent storage. It gave me a strong foundation in building scalable backend systems.</p>
+                            <div>
+                                <a href="https://github.com/arpitarout01/LIBRARY-MANAGEMENT-SYSTEM" class="btn btn-primary" target="_blank"><i class="bi bi-github me-1"></i>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="connect" class="connect-section text-center py-5">
+        <div class="container">
+            <h1 class="section-heading mb-4">Connect with Me</h1>
+            <p class="lead mb-3">I’m passionate about building meaningful tech and always open to collaborations, projects, or opportunities in the AI/ML and software development space. Let’s innovate together!</p>
+            <p class="lead mb-4">Feel free to reach out through any of these platforms:</p>
+            <div class="d-flex justify-content-center gap-4 flex-wrap">
+            
+                <!-- GitHub -->
+                <a href="https://github.com/arpitarout01" target="_blank" rel="noopener noreferrer" class="connect-icon">
+                <i class="bi bi-github"></i>
+                <span>GitHub</span>
+                </a>
+      
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/arpita-rout-38b814267/" target="_blank" rel="noopener noreferrer" class="connect-icon">
+                <i class="bi bi-linkedin"></i>
+                <span>LinkedIn</span>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:arpitarout132@gmail.com" class="connect-icon">
+                <i class="bi bi-envelope-fill"></i>
+                <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section text-center py-4">
+        <div class="container">
+            <span>© Made By Arpita Rout</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="script.js"></script>
+</body>
+</html>
